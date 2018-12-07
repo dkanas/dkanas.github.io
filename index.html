@@ -6,13 +6,67 @@
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <section class="top-section">
-      <header class="top-section__header">Daniel Kanas</header>
-      <p class="top-section__label">JS Full-stack developer</p>
+    <section class="section top-section flex-column-center">
+      <header class="top-section__header zero-opacity">Daniel Kanas</header>
+      <p class="top-section__description zero-opacity">Full-stack developer</p>
+      <div class="top-section__arrowcircle"></div>
+    </section>
+    <section class="section overview-section flex-column-center">
+      <header class="overview-section__header">Hi! I'm Daniel!</header>
+      <p class="overview-section__paragraph">
+        I'm a full-stack developer, specializing in React and NodeJS. I also have experience using
+        Elixir + Phoenix stack. I have 2.5 years of professional experience in creating responsive,
+        scalable and performant web apps, and deploying them to IaaS and Paas services, 
+        like AWS, Heroku and DigitalOcean.
+      </p>
+    </section>
+    <section class="section technologies-section flex-column-center">
+      <header class="technologies-section__header">Technologies</header>
+      <div class="technologies-section__boxes">
+        <div class="technologies-section__boxes__box">
+          <header>Frontend</header>
+          <ul>
+            <li>React</li>
+            <li>Redux</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>ES6/7/8</li>
+            <li>Webpack</li>
+            <li>Sass</li>
+          </ul>
+        </div>
+        <div class="technologies-section__boxes__box">
+          <header>Backend</header>
+          <ul>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>MongoDB - mongoose</li>
+            <li>PostgreSQL - sequelize</li>
+            <li>Redis</li>
+            <li>Elixir/Phoenix</li>
+            <li>Ruby on Rails</li>
+          </ul>
+        </div>
+        <div class="technologies-section__boxes__box">
+          <header>Other</header>
+          <ul>
+            <li>Git, Github/BitBucket</li>
+            <li>Linux server administration basics</li>
+            <li>CI/CD pipelines</li>
+            <li>Heroku, DigitalOcean, AWS, etc.</li>
+            <li>Neovim</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section contact-section flex-column-center">
+      <header class="contact-section__header">Contact</header>
+      <ul>
+        <li><span class="bold">Phone:</span> +48 510 129 652</li>
+        <li><span class="bold">Email:</span> <a id="email"></a></li>
+        <li><span class="bold">Github:</span> <a href="https://github.com/dkanas">https://github.com/dkanas</a></li>
+      </ul>
     </section>
     <script src="assets/index.js"></script>
-    <div class="overlay">
-      <span class="overlay__text">Coming soon...</span>
-    </div>
   </body>
 </html>
