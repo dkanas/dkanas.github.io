@@ -75,6 +75,11 @@ body {
   font-size: 1.2rem;
 }
 
+.technologies-section {
+  background-color: #343434;
+  color: #fff;
+}
+
 .technologies-section__header {
   font-size: 5rem;
 }
@@ -91,7 +96,7 @@ body {
 }
 
 .technologies-section__boxes__box {
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 20px;
   width: 25%;
